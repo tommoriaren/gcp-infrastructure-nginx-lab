@@ -1,0 +1,9 @@
+# Folder plugin Terraform
+.terraform/
+
+# File state (berisi data sensitif)
+*.tfstate
+*.tfstate.backup
+
+# File variabel rahasia
+*.tfvars
